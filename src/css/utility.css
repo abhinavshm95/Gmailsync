@@ -42,7 +42,6 @@
 }
 
 .btn {
-    padding: 1px 31px;
     border: 2px solid black;
     border-radius: 6px;
     cursor: pointer;
@@ -52,6 +51,7 @@
 
 .btn a {
     text-decoration: none;
+    padding: 0px 22px;
     color: black;
     font-size: 17px;
     font-family: var(--font1);

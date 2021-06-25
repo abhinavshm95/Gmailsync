@@ -3,23 +3,8 @@
     padding: 0%;
 }
 
-
-/* .navbar::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: url('./img/e.png') fixed;
-    opacity: 0.9;
-    background-size: 1536px;
-    z-index: -1;
-} */
-
 .navbar {
     width: 80vw;
-    /* background-color: rebeccapurple; */
     margin: 0px auto;
     display: flex;
     align-items: center;
@@ -153,4 +138,12 @@
     height: 30px;
     font-size: 18px;
     cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    bottom: 0%;
 }
