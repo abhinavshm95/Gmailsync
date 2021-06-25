@@ -3,11 +3,19 @@
     padding: 0%;
 }
 
-body {
-    height: 100vh;
-    background: url('./img/e.png') no-repeat;
+
+/* .navbar::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: url('./img/e.png') fixed;
+    opacity: 0.9;
     background-size: 1536px;
-}
+    z-index: -1;
+} */
 
 .navbar {
     width: 80vw;
@@ -16,6 +24,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.msg {
+    color: black;
+    font-size: 34px;
+    position: absolute;
+    top: 332px;
+    left: 642px;
+    animation: meet2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+}
+
+@keyframes meet2 {
+    from {
+        font-size: 4px;
+    }
+    to {
+        font-size: 34px;
+    }
 }
 
 .nav-left img {
@@ -35,10 +65,20 @@ body {
 }
 
 .home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 80vh;
+}
+
+.home-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: url('./img/e.png') fixed;
+    opacity: 0.9;
+    background-size: 1536px;
+    z-index: -1;
 }
 
 .nav-left ul li {
@@ -67,4 +107,50 @@ body {
 
 .active_class {
     color: green;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.login-form::before {
+    background-color: beige;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+}
+
+.login-form form {
+    height: 400px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1);
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login-form input {
+    margin-top: 20px;
+    padding: 5px;
+    width: 271px;
+}
+
+.form-btn {
+    margin-top: 22px;
+    width: 72px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
 }
