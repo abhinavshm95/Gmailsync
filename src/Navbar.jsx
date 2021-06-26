@@ -6,9 +6,9 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="nav-left">
                     <ul>
-                        <li><NavLink exact activeClassName='active_class' to="/" >Home</NavLink> </li>
-                        <li><NavLink exact activeClassName='active_class' to="/history">History Page</NavLink> </li>
-                        <li><NavLink exact activeClassName='active_class' to="/create">Create/Edit mail</NavLink> </li>
+                        <li><NavLink exact activeClassName='active-class' to="/" >Home</NavLink> </li>
+                        <li><NavLink exact activeClassName='active-class' to="/history">History Page</NavLink> </li>
+                        <li><NavLink exact activeClassName='active-class' to="/create">Create/Edit mail</NavLink> </li>
                     </ul>
                 </div>
                 <div className="nav-right">
