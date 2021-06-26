@@ -71,7 +71,8 @@
     font-family: var(--font1);
 }
 
-.form-box input,
+
+/* .form-box input,
 textarea {
     width: 52vw;
     padding: 0px 6px;
@@ -80,4 +81,4 @@ textarea {
     font-family: var(--font1);
     border: 2px solid var(--main-bg-color);
     border-radius: 5px;
-}
+} */

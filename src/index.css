@@ -94,7 +94,6 @@
 
 .login-form {
     display: flex;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
@@ -167,6 +166,71 @@
     padding: 10px;
     text-align: center;
     bottom: 0%;
+}
+
+.create-form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 225, 194);
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.create-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: 13px;
+}
+
+.radio-class {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.radio-class label {
+    margin-left: 6px;
+}
+
+.radio-class input {
+    height: 12px;
+}
+
+.text input {
+    width: 35%;
+    padding: 4px;
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+.text-class textarea {
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0;
+    font-size: 15px;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.btn-class {
+    width: 30px;
+}
+
+.btn-class button {
+    font-size: 15px;
+    width: 64px;
+    height: 30px;
+    cursor: pointer;
 }
 
 @media (max-width:940px) {
